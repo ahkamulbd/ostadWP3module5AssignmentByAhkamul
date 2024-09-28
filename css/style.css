@@ -14,7 +14,7 @@ body {
 
 header{
     /* width: 90%; */
-    height: 70px;
+    /* height: 70px; */
     /* background-color: aquamarine; */
     /* margin-bottom: 520px; */
 }
@@ -69,14 +69,19 @@ header{
 }
 
 #banner-section{
-    height: 90vh; 
-    background-image: url('../images/bannerWD.jpg'); 
+    height: 600px;  
+    background-image: url(../images/bannerWD.jpg);
     background-size: cover; 
     background-position: center; 
     margin-top: 10px;
     /* position: relative; */
     /* margin-bottom: 100px; */
 }
+
+/* #banner-image img{
+    width: 100%;
+    height: 70%;
+} */
 
 #banner-content{
     width: 100%;
@@ -107,19 +112,46 @@ header{
 ============================================= */
 
 main{
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 /* About Me Section */
 
-/* #about-me{
+#about-me{
     display: flex;
 }
 
 #about-left{
-    width: 50%;
+    max-width: 90%;
+    height: auto;
+    background-color: lightblue;
 }
 
 #about-right{
-    width: 50%;
-} */
+    width: 40%;
+    margin: 50px 70px;
+}
+
+#about-right h2{
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+#about-right P{
+    font-weight: 100;
+    margin: 10px 0;
+    text-align: justify;
+    line-height: 1.6;
+    color: hsla(208, 8%, 49%, 0.869);
+}
+
+#about-right button{
+    margin-top: 30px;
+    padding: 15px 50px;
+    font-size: 25px;
+    font-weight: 700;
+    background: darkblue;
+    color: white;
+    border-radius: 10px;
+}
